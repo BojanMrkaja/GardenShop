@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/alarm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/chevron-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/chevron-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/circle-with-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/circle-with-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/menu1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/old-phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/sweden.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/base/_fonts.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KMxFdVDrX0KsLI6cK97VDQOn04" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/svg&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\svg" />
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="" />
+      <created>1673798153078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673798153078</updated>
+      <workItem from="1673798153080" duration="3209000" />
+      <workItem from="1673809979487" duration="104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

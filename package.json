@@ -1,0 +1,16 @@
+{
+  "name": "Garden Shop",
+  "version": "1.0.0",
+  "description": "Garden Shop Project",
+  "scripts": {
+    "cleanup": "rmdir /q /s .parcel-cache dist",
+    "start": " npm run cleanup && parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "author": "Bojan Mrkaja",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  }
+}
