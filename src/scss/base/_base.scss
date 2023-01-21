@@ -1,8 +1,32 @@
 :root{
-  --background-color:blue;
+  //COLORS
+  --color-primary-light:#6FB25D;
+  --color-primary-dark:#5E9E4D;
+  --color-primary-dark-2:#067233;
+  --color-secondary:#EE1F24;
+  --color-white:#ffff;
+  --color-white-2:#ECE9E8;
+  --color-gray-dark:#333333;
+  --color-gray-light:#404040;
+  --color-gray-light-2:#9B9B9B;
+  --color-black:#000;
+
+  //FONTS
+  --font-primary-bold:"HelveticaNeue-Bold", "sans-serif";
+  --font-primary-medium:"HelveticaNeue-Bold", "sans-serif";
+  --font-primary-regular:"HelveticaNeue", "sans-serif";
+  --font-primary-light:"HelveticaNeue-Light", "sans-serif";
+
+  --font-secondary-bold:"SocialGothic-DemiBold", "sans-serif";
+  --font-secondary-regular:"SocialGothic", "sans-serif";
 }
 
 html{
+  //This defines what 1rem is
+  font-size: 62.5%; //1rem = 10px; 10/16 = 62.5%
+}
+
+body{
   box-sizing: border-box;
 }
 
@@ -14,11 +38,3 @@ html{
   box-sizing: inherit;
 }
 
-body{
-  background-color: var(--background-color);
-}
-
-h1{
-  font-size: 70px;
-  font-family: 'SocialGothic', sans-serif;
-}

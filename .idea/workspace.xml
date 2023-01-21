@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium/HelveticaNeue-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-regular/HelveticaNeue.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/SocialGothic-DemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic-DemiBold/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/SocialGothic/SocialGothic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/alarm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/chevron-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/chevron-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/circle-with-minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/circle-with-plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/menu1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/old-phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/SVG/sweden.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/base/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/e-mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/hamburger-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/header-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/search-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/svg&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/Header&Navigarion",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\Header&amp;Navigarion" />
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\svg" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\fonts" />
     </key>
@@ -85,7 +59,10 @@
       <option name="presentableId" value="Default" />
       <updated>1673798153078</updated>
       <workItem from="1673798153080" duration="3209000" />
-      <workItem from="1673809979487" duration="104000" />
+      <workItem from="1673809979487" duration="804000" />
+      <workItem from="1674288680293" duration="69000" />
+      <workItem from="1674288828852" duration="41000" />
+      <workItem from="1674311474564" duration="2596000" />
     </task>
     <servers />
   </component>
