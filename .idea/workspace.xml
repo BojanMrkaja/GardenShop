@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/e-mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/hamburger-menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/header-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/e-mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/e-mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/hamburger-menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/hamburger-menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/header-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/header-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Header&amp;Navigarion/search-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/search-icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_utilites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_utilites.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
       <workItem from="1673809979487" duration="804000" />
       <workItem from="1674288680293" duration="69000" />
       <workItem from="1674288828852" duration="41000" />
-      <workItem from="1674311474564" duration="2596000" />
+      <workItem from="1674311474564" duration="20357000" />
     </task>
     <servers />
   </component>

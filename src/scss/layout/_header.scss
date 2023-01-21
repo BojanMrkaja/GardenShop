@@ -1,0 +1,148 @@
+@use "../abstract/mixins" as *;
+
+.header{
+  background-color: var(--color-primary-light);
+  padding: 2.6rem 0;
+
+  &__grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: max-content 2.5fr max-content;
+    grid-column-gap: 9rem;
+    align-items: center;
+    align-content: center;
+
+    @media(max-width: 970px) {
+      width: 80%;
+      grid-gap: 7rem;
+      justify-content: center;
+    }
+
+    @media(max-width: 826px) {
+      grid-gap: 3.5rem;
+    }
+
+    @media(max-width: 600px) {
+      grid-gap: 1.5rem;
+    }
+  }
+
+  &__info{
+    justify-self: end;
+    display: grid;
+    grid-column-gap: 3.6rem;
+    grid-row-gap: 1.1rem;
+    grid-template-rows: repeat(2, 1.6rem);
+    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+
+    @media(max-width: 532px) {
+      display: none;
+    }
+
+    &-hours{
+      grid-row: 2 / 3;
+      grid-column: 1 / -1;
+    }
+
+    p{
+      color: var(--color-white-2);
+      font-family: var(--font-primary-regular);
+      font-size: 1.2rem;
+      letter-spacing: -0.22px;
+    }
+  }
+
+  [class^="header__info-"]{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__search{
+    display: flex;
+
+    @media(max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__search-input{
+    border: none;
+    border-radius: 0.2rem;
+    background-color: var(--color-primary-dark);
+    padding: 1rem 0 1rem 1.7rem;
+    color: var(--color-white);
+    font-family:var(--font-primary-light);
+
+    &:focus{
+      outline: none;
+    }
+
+    &::-moz-placeholder,
+    &::-webkit-input-placeholder{
+      color: var(--color-white);
+      font-family:var(--font-primary-light);
+      font-size: 1.4rem;
+      font-weight: 300;
+      letter-spacing: 0.15px;
+      line-height: 1.7rem;
+    }
+  }
+
+  &__search-btn{
+    border: none;
+    background-color: var(--color-primary-dark);
+    cursor:pointer;
+    padding-right: 1.5rem;
+    @include CenterFlex();
+  }
+}
+
+.navigation-toggler{
+  display: none;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  border-radius: 3px;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  cursor: pointer;
+
+  &__icon{
+    display: block;
+    height: 3px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: var(--color-white);
+
+
+    &::after,
+    &::before{
+      content:"";
+      display: block;
+      height: 3px;
+      width: 60%;
+      margin: 0 auto;
+      background-color: var(--color-white);
+      position: absolute;
+    }
+
+    &::after{
+      top: 8px;
+      left: 6px;
+    }
+
+    &::before{
+      bottom: 8px;
+      left: 7px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    display: block;
+  }
+
+  @media(max-width: 532px) {
+    justify-self: end;
+  }
+}
