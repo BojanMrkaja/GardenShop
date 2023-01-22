@@ -1,0 +1,25 @@
+@keyframes moveInLeft {
+  100%{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  100%{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+
+.animation-1{
+  animation: moveInLeft .6s ease-in .2s;
+  animation-fill-mode: forwards;
+}
+
+.animation-2{
+  animation: moveInRight .6s ease-in .4s;
+  animation-fill-mode: forwards;
+}

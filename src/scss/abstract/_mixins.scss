@@ -26,3 +26,31 @@
   bottom: $bottom;
   left: $left;
 }
+
+//RESPONSIVE MANAGER
+
+/*
+1EM = 16PX
+*/
+
+@mixin respond($breakpoint){
+  @if($breakpoint == xx-large){
+    @media(min-width: 87.5em) { @content } // 1400px
+  }
+
+  @if($breakpoint == x-large){
+    @media(min-width: 75em) { @content } // 1200px
+  }
+
+  @if($breakpoint == large){
+    @media(max-width: 62em) { @content } // 992px
+  }
+
+  @if($breakpoint == medium){
+    @media(max-width: 48em) { @content } // 768px
+  }
+
+  @if($breakpoint == small){
+    @media(max-width: 36em) { @content } // 576px
+  }
+}

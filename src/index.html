@@ -14,40 +14,56 @@
   <body>
 <!-- HEADER START-->
     <header class="header">
-      <div class="container header__grid-container">
-        <div class="header__logo-box">
-          <a href="index.html">
-            <img class="header__logo" src="assets/img/header-navigation/header-logo.png" alt="garden-shop logo">
-          </a>
-        </div>
-
-        <div class="header__info">
-          <div class="header__info-phone">
-            <img src="assets/img/header-navigation/phone.png" alt="phone-icon">
-            <p>(+01) 123 456 7896</p>
+      <div class="container">
+        <div class="header__grid-container">
+          <div class="header__logo-box">
+            <a href="index.html">
+              <img class="header__logo" src="assets/img/header-navigation/header-logo.png" alt="garden-shop logo">
+            </a>
           </div>
-          <div class="header__info-mail">
-            <img src="assets/img/header-navigation/e-mail.png" alt="email-icon">
-            <p>gardenshop@gmail.com</p>
-          </div>
-          <div class="header__info-hours">
-            <img src="assets/img/header-navigation/clock.png" alt="clock-icon">
-            <p>Monday-Friday : 9:00 AM to 7:00 PM  Sunday : Closed</p>
-          </div>
-        </div>
 
-        <button class="navigation-toggler" type="button">
-            <span class="navigation-toggler__icon"></span>
-        </button>
+          <div class="header__info">
+            <div class="header__info-phone">
+              <img src="assets/img/header-navigation/phone.png" alt="phone-icon">
+              <p>(+01) 123 456 7896</p>
+            </div>
+            <div class="header__info-mail">
+              <img src="assets/img/header-navigation/e-mail.png" alt="email-icon">
+              <p>gardenshop@gmail.com</p>
+            </div>
+            <div class="header__info-hours">
+              <img src="assets/img/header-navigation/clock.png" alt="clock-icon">
+              <p>Monday-Friday : 9:00 AM to 7:00 PM  Sunday : Closed</p>
+            </div>
+          </div>
 
-        <form action="#" class="header__search">
-          <input type="text" class="header__search-input" placeholder="Search">
-          <button class="header__search-btn">
-            <img class="header__search-icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+          <img class="header__search-mobile" src="assets/img/header-navigation/search-icon.png" alt="search icon">
+
+          <button class="navigation-toggler" type="button">
+              <span class="navigation-toggler__icon navigation-toggler__icon--1"></span>
+              <span class="navigation-toggler__icon navigation-toggler__icon--2"></span>
+              <span class="navigation-toggler__icon navigation-toggler__icon--3"></span>
           </button>
-        </form>
+
+          <form action="#" class="header__search">
+            <input type="text" class="header__search-input" placeholder="Search">
+            <button class="header__search-btn">
+              <img class="header__search-icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+            </button>
+          </form>
+        </div>
       </div>
     </header>
 <!-- HEADER ENDS-->
+
+    <div class="search-popup">
+      <span class="search-popup__close">Close</span>
+      <form action="#" class="search-popup__form">
+        <input type="text" class="search-popup__input" placeholder="Search">
+        <button class="search-popup__btn" type="button">
+          <img class="search-popup__icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+        </button>
+      </form>
+    </div>
   </body>
 </html>

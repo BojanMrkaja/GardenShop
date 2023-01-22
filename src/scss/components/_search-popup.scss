@@ -1,0 +1,77 @@
+@use "../abstract/mixins" as *;
+@use "../abstract/animations" as *;
+
+.search-popup{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background:linear-gradient(var(--color-primary-dark-2), var(--color-primary-light));
+  opacity: 0;
+  visibility: hidden;
+  transition: all .2s linear;
+
+  &__form{
+    @include CenterFlex();
+    width: 100%;
+    height: 100%;
+  }
+
+  &__close{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: var(--color-white);
+    font-family:var(--font-primary-medium);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  &__input{
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    border-bottom: .3rem solid var(--color-white);
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: var(--color-white);
+    font-family: var(--font-primary-medium);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50rem);
+
+
+    &::-moz-placeholder,
+    &::-webkit-input-placeholder{
+      color: var(--color-white);
+      font-family:var(--font-primary-light);
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 0.15px;
+      line-height: 1.7rem;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+
+  &__btn{
+    border: none;
+    background-color: transparent;
+    width: 2.5rem;
+    margin-bottom: -1rem;
+    margin-left: -3rem;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(50rem);
+  }
+
+  &__icon{
+    width: 100%;
+  }
+}
