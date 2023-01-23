@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_search-popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/abstract/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/abstract/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/base/_utilites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_utilites.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_search-popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_search-popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +62,9 @@
       <workItem from="1674311474564" duration="20520000" />
       <workItem from="1674334055959" duration="568000" />
       <workItem from="1674369197188" duration="1186000" />
-      <workItem from="1674371216300" duration="28663000" />
+      <workItem from="1674371216300" duration="29069000" />
+      <workItem from="1674416595506" duration="774000" />
+      <workItem from="1674480384160" duration="5693000" />
     </task>
     <servers />
   </component>

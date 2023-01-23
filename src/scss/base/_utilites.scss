@@ -1,8 +1,26 @@
 @use "../abstract/mixins" as *;
 
 .container{
-  width: 100%;
+  max-width: 100%;
   padding: 0 2rem;
+
+  @include respond(medium){
+    max-width: 72rem;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  @include respond(large){
+    max-width: 96rem;
+  }
+
+  @include respond(x-large){
+    max-width: 114rem;
+  }
+
+  @include respond(xx-large){
+    max-width: 132rem;
+  }
 }
 
 .u-center-text{text-align: center !important;}
