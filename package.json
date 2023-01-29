@@ -1,10 +1,10 @@
 {
-  "name": "Garden Shop",
+  "name": "garden",
   "version": "1.0.0",
   "description": "Garden Shop Project",
   "scripts": {
     "cleanup": "rmdir /q /s .parcel-cache dist",
-    "start": " npm run cleanup && parcel src/*.html",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html"
   },
   "author": "Bojan Mrkaja",
