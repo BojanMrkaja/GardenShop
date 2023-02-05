@@ -1,0 +1,25 @@
+@use "../abstract/mixins" as *;
+
+.btn-primary{
+  display: inline-block;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  font-family: var(--font-primary-bold);
+  font-size: 1.4rem;
+  padding: 1rem 1.1rem;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .2s ease-in;
+
+  @include respond(large){
+    &:hover{
+      background-color: darken(#EE1F24FF, 20%);
+    }
+  }
+
+  @include respond(x-large){
+    font-size: 1.8rem;
+    padding: 1.2rem 1.5rem;
+  }
+}

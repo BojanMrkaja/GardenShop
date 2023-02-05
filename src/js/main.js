@@ -8,17 +8,17 @@ const searchPopupInput = document.querySelector('.search-popup__input');
 const searchPopupClose = document.querySelector('.search-popup__close');
 
 const navigation = document.querySelector('.navigation');
-const navigationDropdownLinks = [...document.querySelectorAll('[data-dropdown]')];
-const dropdown = document.querySelectorAll('.navigation__dropdown');
+const navigationList = document.querySelector('.navigation__list');
+const navigationItem = document.querySelectorAll('.navigation__item');
 
-//Hamburger menu animation
+//HAMBURGER MENU ANIMATION
 navToggler.addEventListener('click', function (){
     this.classList.toggle('active');
 
     navigation.classList.toggle('show');
 });
 
-//Search mobile
+//SEARCH MOBILE
 searchMobileIcon.addEventListener('click', function (){
     searchPopup.style.opacity = '1';
     searchPopup.style.visibility = 'visible';
@@ -33,9 +33,29 @@ searchPopupClose.addEventListener('click', function (){
     searchPopupBtn.classList.remove('animation-2');
 });
 
-navigationDropdownLinks.forEach(dropdownLink => {
-    dropdownLink.addEventListener('click', function (){
-        this.nextElementSibling.classList.toggle('show');
+//NAVIGATION CLICK AND HOVER EVENTS
+if (screen.width < 992){
+    navigationList.addEventListener('click', function (e){
+        const link = e.target.closest('[data-dropdown]');
+        if (!link) return;
+        link.nextElementSibling.classList.toggle('show');
     });
-});
+}
+
+if (screen.width >= 992){
+    navigationItem.forEach(navItem => {
+       navItem.addEventListener('mouseenter', function (){
+           if (!navItem.firstElementChild.nextElementSibling)return;
+           navItem.firstElementChild.nextElementSibling.classList.add('show');
+       });
+
+        navItem.addEventListener('mouseleave', function (){
+            if (!navItem.firstElementChild.nextElementSibling)return;
+            navItem.firstElementChild.nextElementSibling.classList.remove('show');
+        });
+    });
+}
+
+
+
 

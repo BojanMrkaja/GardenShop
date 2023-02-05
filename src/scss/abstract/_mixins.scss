@@ -34,6 +34,10 @@
 */
 
 @mixin respond($breakpoint){
+  @if($breakpoint == small){
+    @media(min-width: 31.25em) { @content } // 500px
+  }
+
   @if($breakpoint == medium){
     @media(min-width: 48em) { @content } // 768px
   }

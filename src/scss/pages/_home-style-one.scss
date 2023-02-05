@@ -1,0 +1,12 @@
+@use "../abstract/mixins" as *;
+
+.section-lead{
+  background-color: var(--color-white);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+  @include respond(x-large){
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+  }
+}

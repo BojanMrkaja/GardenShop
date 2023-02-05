@@ -82,16 +82,22 @@
 
         & span{
           margin-left: 1.3rem;
+
+          @include respond(large){
+            font-size: 1.6rem;
+          }
         }
       }
 
       @include respond(xx-large){
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+        padding: 1.8rem 0;
       }
   }
 
   &__link:hover,
-  &__link:active{
+  &__link:active,
+  &__link.active{
     background-color: var(--color-gray-light-2);
     color: var(--color-white-2);
     border-color: transparent;
@@ -125,6 +131,10 @@
       }
     }
 
+    @include respond(xx-large){
+      padding:1rem 0;
+    }
+
       &.show {
         display: block;
         animation: fade-in .4s forwards;
@@ -132,7 +142,6 @@
 
       &.hidden{
         display: none;
-        animation: fade-out .4s forwards;
       }
   }
 
@@ -153,11 +162,16 @@
 
       @include respond(large){
         border: none;
+        font-size: 1.6rem;
+      }
+
+      @include respond(xx-large){
+        font-size: 1.8rem;
       }
   }
 
   &__dropdown-link:hover,
-  &__dropdown-link:active{
+  &__dropdown-link:active,{
     background-color:var(--color-primary-dark-2);
     color: var(--color-white);
 

@@ -2,26 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/about-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contact-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home-style-three.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home-style-two.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services-style-one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services-style-three.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services-style-two.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/Page 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/home-style-one/lead-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/home-style-one/lead-service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_btn-primary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_section-lead.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pages/_home-style-one.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/abstract/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/abstract/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/base/_utilites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_utilites.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_search-popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_search-popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -50,23 +58,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/Header&amp;Navigarion&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/favicon",
+    "list.type.of.created.stylesheet": "SCSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\Header&amp;Navigarion" />
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\favicon" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img" />
-      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\svg" />
-      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\fonts" />
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\header-navigation" />
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\home-style-one" />
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\Header&amp;Navigarion" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +126,14 @@
       <workItem from="1674752577561" duration="5222000" />
       <workItem from="1674758916709" duration="96000" />
       <workItem from="1674833949428" duration="1987000" />
-      <workItem from="1674912205470" duration="35508000" />
+      <workItem from="1674912205470" duration="47780000" />
+      <workItem from="1675089542673" duration="3105000" />
+      <workItem from="1675173805088" duration="16309000" />
+      <workItem from="1675348395436" duration="3137000" />
+      <workItem from="1675436968956" duration="2621000" />
+      <workItem from="1675514780946" duration="5988000" />
+      <workItem from="1675540442224" duration="262000" />
+      <workItem from="1675577740420" duration="11530000" />
     </task>
     <servers />
   </component>
