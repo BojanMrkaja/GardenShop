@@ -1,5 +1,6 @@
 
 const navToggler = document.querySelector('.navigation-toggler');
+const bodyEl = document.querySelector('body');
 
 const searchMobileIcon = document.querySelector('.header__search-mobile');
 const searchPopup = document.querySelector('.search-popup');
@@ -20,6 +21,7 @@ navToggler.addEventListener('click', function (){
 
 //SEARCH MOBILE
 searchMobileIcon.addEventListener('click', function (){
+    bodyEl.style.overflow = 'hidden';
     searchPopup.style.opacity = '1';
     searchPopup.style.visibility = 'visible';
     searchPopupInput.classList.add('animation-1');
@@ -27,6 +29,7 @@ searchMobileIcon.addEventListener('click', function (){
 });
 
 searchPopupClose.addEventListener('click', function (){
+    bodyEl.style.overflow = 'visible';
     searchPopup.style.opacity = '0';
     searchPopup.style.visibility = 'hidden';
     searchPopupInput.classList.remove('animation-1');

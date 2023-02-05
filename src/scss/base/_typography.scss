@@ -18,7 +18,17 @@
   }
 
   @include respond(x-large){
-    font-size: 5rem;
-    line-height: 5.5rem;
+    font-size: 4.5rem!important;
+    line-height: 5.5rem!important;
+  }
+
+  &--green{
+    color: var(--color-primary-dark);
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+
+    @include respond(medium){
+      font-size: 3.6rem;
+    }
   }
 }
