@@ -14,4 +14,18 @@
 .home-sub-section{
   background-color: var(--color-white);
   padding-bottom: 3.1rem;
+
+  @include respond(x-large){
+    padding-bottom: 5.1rem;
+  }
+}
+
+.popular-product-section{
+  background-color: var(--color-white);
+  padding-bottom: 1.3rem;
+  border-bottom: .3rem solid var(--color-white-2);
+
+  @include respond(x-large){
+    padding-bottom: 2.3rem;
+  }
 }

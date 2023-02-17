@@ -1,0 +1,44 @@
+@use "../abstract/mixins" as *;
+@import "../../node_modules/glider-js/glider.min.css";
+
+.glider{
+  overflow-x: hidden;
+
+  &-slide{
+    text-align: center;
+  }
+}
+
+.slider{
+
+  &__btn{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2px;
+    background-color: var(--color-primary-dark-2);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -5.5rem;
+    z-index: 100;
+
+    @include respond(large){
+      top: -7.5rem;
+    }
+    @include respond(x-large){
+      top: -9.5rem;
+    }
+
+    img{
+      @include CenterAbsolute;
+    }
+
+    &--left{
+      left: 0;
+    }
+
+    &--right{
+      right: 0;
+    }
+  }
+}

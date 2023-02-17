@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/home-style-one/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/home-style-one/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_home-sub-section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/btn-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/btn-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/discount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/product_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/product_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/product_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/products/product_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_product-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_section-lead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_section-lead.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_home-sub-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_home-sub-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_home-style-one.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_home-style-one.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,25 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/home-style-one",
-    "list.type.of.created.stylesheet": "SCSS",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/products&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\products" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\home-style-one" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\favicon" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\header-navigation" />
-      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\Header&amp;Navigarion" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +125,14 @@
       <workItem from="1675436968956" duration="2621000" />
       <workItem from="1675514780946" duration="5988000" />
       <workItem from="1675540442224" duration="262000" />
-      <workItem from="1675577740420" duration="19191000" />
+      <workItem from="1675577740420" duration="28319000" />
+      <workItem from="1675660081495" duration="21378000" />
+      <workItem from="1675780072244" duration="3726000" />
+      <workItem from="1675863377405" duration="5010000" />
+      <workItem from="1675953905649" duration="1540000" />
+      <workItem from="1676185271699" duration="8712000" />
+      <workItem from="1676402236337" duration="98000" />
+      <workItem from="1676637813877" duration="6492000" />
     </task>
     <servers />
   </component>
