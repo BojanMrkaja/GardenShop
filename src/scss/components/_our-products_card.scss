@@ -1,0 +1,29 @@
+.our-products-card{
+  margin-bottom: 2.1rem;
+
+  &__link{
+    text-decoration: none;
+  }
+
+  &__img{
+    display: block;
+    margin-bottom: 2.4rem;
+  }
+
+  &__title{
+    color: var(--color-primary-dark-2);
+    font-family: var(--font-secondary-bold);
+    font-size: 1.8rem;
+    letter-spacing: -0.22px;
+    margin-bottom: 1.6rem;
+  }
+
+  &__description{
+    color: var(--color-gray-light-2);
+    font-family: var(--font-primary-light);
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: -0.25px;
+    line-height: 2.4rem;
+  }
+}
