@@ -53,7 +53,11 @@
     line-height: 3.1rem;
     text-transform: uppercase;
 
-    @include respond(medium){
+    @include respond(small){
+      font-size: 2.2rem;
+    }
+
+    @include respond(large){
       font-size: 2.4rem;
     }
 

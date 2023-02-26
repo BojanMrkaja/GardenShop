@@ -1,6 +1,25 @@
-.our-products-grid{
+@use "../abstract/mixins" as *;
 
-  &:not(:last-child){
-    margin-bottom: 2.1rem;
+.our-products-grid{
+  display: grid;
+  grid-template-columns: min-content;
+  justify-content: center;
+  align-content: center;
+  grid-row-gap: 2rem;
+
+  @include respond(medium){
+    grid-template-columns: repeat(2, min-content);
+    grid-column-gap: 2rem;
+    justify-content: space-around;
+  }
+
+  @include respond(large){
+    grid-template-columns: repeat(4, min-content);
+    justify-content: space-between;
+  }
+
+  @include respond(x-large){
+
   }
 }
+

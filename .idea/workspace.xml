@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/home-main/gallery-home-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/home-main/gallery-home-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/our-prodcts/our-product-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/our-prodcts/our-product-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/our-prodcts/our-product-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/our-prodcts/our-product-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_our-products_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_home-main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_our-products.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/_utilites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_utilites.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_home-style-one.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_home-style-one.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_our-products_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_our-products_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_our-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_our-products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/our-prodcts",
-    "list.type.of.created.stylesheet": "SCSS",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/our-prodcts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\our-prodcts" />
@@ -130,7 +119,11 @@
       <workItem from="1676185271699" duration="8712000" />
       <workItem from="1676402236337" duration="98000" />
       <workItem from="1676637813877" duration="7213000" />
-      <workItem from="1676804120165" duration="9875000" />
+      <workItem from="1676804120165" duration="9980000" />
+      <workItem from="1676908602200" duration="2913000" />
+      <workItem from="1677165806027" duration="2646000" />
+      <workItem from="1677331493946" duration="750000" />
+      <workItem from="1677390889144" duration="5793000" />
     </task>
     <servers />
   </component>
