@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/header-navigation/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_our-products_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_our-products_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_our-products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_our-products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,25 +37,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/our-prodcts&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mrkaj/Desktop/Git WorkPlace/GardenShop/src/assets/img/header-navigation",
+    "list.type.of.created.stylesheet": "SCSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\header-navigation" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\our-prodcts" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\home-main" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\products" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\home-style-one" />
-      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\favicon" />
     </key>
   </component>
   <component name="RunManager">
@@ -123,7 +124,7 @@
       <workItem from="1676908602200" duration="2913000" />
       <workItem from="1677165806027" duration="2646000" />
       <workItem from="1677331493946" duration="750000" />
-      <workItem from="1677390889144" duration="5793000" />
+      <workItem from="1677390889144" duration="12849000" />
     </task>
     <servers />
   </component>
