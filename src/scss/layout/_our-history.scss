@@ -1,0 +1,28 @@
+@use "../abstract/mixins" as *;
+
+.our-history-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 4.5rem;
+
+  @include respond(medium){
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond(large){
+    grid-column-gap: 4.5rem;
+  }
+
+  p{
+    color: var(--color-gray-light-2);
+    font-family: var(--font-primary-light);
+    font-size: 1.4rem;
+    letter-spacing: -0.25px;
+    line-height: 2.2rem;
+
+    @include respond(x-large){
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+    }
+  }
+}

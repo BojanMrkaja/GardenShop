@@ -1,0 +1,65 @@
+@use "../abstract/mixins" as *;
+
+.about-us-lead{
+  background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+  url("../assets/img/about-us/about-us-1.png");
+  padding-top: 15.7rem;
+  padding-bottom: 16.7rem;
+  @include CenterFlex();
+  margin-bottom: 3.6rem;
+  margin-top: 2.3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include respond(x-large){
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+  }
+}
+
+.our-history{
+  padding-bottom: 7.1rem;
+}
+
+.your-garden{
+  margin-bottom: 10rem;
+  padding-top: 8.5rem;
+  padding-bottom: 2.7rem;
+  padding-left: 2.1rem;
+  background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+  url("../assets/img/about-us/about-us-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include respond(x-large){
+    padding-top: 15rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+  }
+
+  p{
+    color: var(--color-white-2);
+    font-family: var(--font-primary-light);
+    font-size: 1.4rem;
+    letter-spacing: -0.25px;
+    line-height: 1.7rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.9rem;
+
+    @include respond(medium){
+      width: 60%;
+    }
+
+    @include respond(medium){
+      width: 40%;
+    }
+
+    @include respond(x-large){
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      margin-top: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
