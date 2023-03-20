@@ -102,7 +102,7 @@
 
 .lead-box{
   padding-top: 19.4rem;
-  padding-bottom: 1.6rem;
+  padding-bottom: 3rem;
   padding-left: 1.8rem;
 
   @include respond(x-large){
@@ -120,5 +120,36 @@
       font-size: 2.5rem;
       margin-bottom: .5rem;
     }
+  }
+}
+
+.lead-grid-container-three{
+
+  @include respond(medium){
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-column-gap: 2rem;
+  }
+
+  @include respond(x-large){
+    grid-template-columns: 1fr 3fr;
+  }
+
+  &__col-1{
+    background-color: var(--color-primary-dark-2);
+    margin-bottom: 2rem;
+
+    @include respond(medium){
+      margin-bottom: 0;
+    }
+  }
+
+  &__col-2{
+    padding: 15rem 0;
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-style-one/lead-hero.png");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

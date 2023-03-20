@@ -1,10 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Garden Shop</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/Page%201.png">
+    <link rel="stylesheet" href="scss/main.scss" />
+    <script defer type="module" src="js/main.js"></script>
 </head>
 <body>
+<!-- HEADER START-->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__grid-container">
+            <div class="header__logo-box">
+                <a href="index.html">
+                    <img class="header__logo" src="assets/img/header-navigation/header-logo.png" alt="garden-shop logo">
+                </a>
+            </div>
 
+            <div class="header__info">
+                <div class="header__info-phone">
+                    <img src="assets/img/header-navigation/phone.png" alt="phone-icon">
+                    <p>(+01) 123 456 7896</p>
+                </div>
+                <div class="header__info-mail">
+                    <img src="assets/img/header-navigation/e-mail.png" alt="email-icon">
+                    <p>gardenshop@gmail.com</p>
+                </div>
+                <div class="header__info-hours">
+                    <img src="assets/img/header-navigation/clock.png" alt="clock-icon">
+                    <p>Monday-Friday : 9:00 AM to 7:00 PM  Sunday : Closed</p>
+                </div>
+            </div>
+
+            <img class="header__search-mobile" src="assets/img/header-navigation/search-icon.png" alt="search icon">
+
+            <button class="navigation-toggler" type="button">
+                <span class="navigation-toggler__icon navigation-toggler__icon--1"></span>
+                <span class="navigation-toggler__icon navigation-toggler__icon--2"></span>
+                <span class="navigation-toggler__icon navigation-toggler__icon--3"></span>
+            </button>
+
+            <form action="#" class="header__search">
+                <input type="text" class="header__search-input" placeholder="Search">
+                <button class="header__search-btn" type="submit">
+                    <img class="header__search-icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+<!-- HEADER ENDS-->
+
+<!--NAVIGATION START-->
+<nav class="navigation">
+    <div class="container">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a data-dropdown="dropdown" href="#" class="navigation__link active">Home <span>+</span></a>
+                <div class="navigation__dropdown">
+                    <div class="container">
+                        <a  href="index.html" class="navigation__dropdown-link">HOMEPAGE STYLE ONE</a>
+                        <a href="home-style-two.html" class="navigation__dropdown-link">HOMEPAGE STYLE TWO</a>
+                        <a href="home-style-three.html" class="navigation__dropdown-link">HOMEPAGE STYLE THREE</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navigation__item"><a href="about-us.html" class="navigation__link">About us</a></li>
+            <li class="navigation__item">
+                <a data-dropdown="dropdown" href="#" class="navigation__link">Services <span>+</span></a>
+                <div class="navigation__dropdown">
+                    <div class="container">
+                        <a href="services-style-one.html" class="navigation__dropdown-link">SERVICES STYLE ONE</a>
+                        <a href="home-style-two.html" class="navigation__dropdown-link">SERVICES STYLE TWO</a>
+                        <a href="home-style-three.html" class="navigation__dropdown-link">SERVICES STYLE THREE</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navigation__item"><a href="shop.html" class="navigation__link">Shop</a></li>
+            <li class="navigation__item">
+                <a data-dropdown="dropdown" href="#" class="navigation__link">
+                    Menu<span>+</span>
+                    <img class="navigation__menu" src="assets/img/header-navigation/hamburger-menu.png" alt="hamburger-menu">
+                </a>
+                <div class="navigation__dropdown">
+                    <div class="container">
+                        <a href="contact-us.html" class="navigation__dropdown-link">Contact us</a>
+                        <a href="locations.html" class="navigation__dropdown-link">locations</a>
+                        <a href="gallery.html" class="navigation__dropdown-link">gallery</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--NAVIGATION END-->
+<main>
+    <!--LEAD SECTION START-->
+    <section class="section-lead-two">
+        <div class="container">
+            <div class="lead-box">
+                <p class="lead-box__text">Decorate your home</p>
+                <h2 class="heading-two u-margin-bottom-medium">WITH BEAUTIFUL GARDEN</h2>
+                <a href="shop.html" class="btn-primary" target="_blank">Find out more</a>
+            </div>
+        </div>
+    </section>
+    <!--LEAD SECTION END-->
+    <!--SUB SECTION START-->
+    <section class="home-sub-section">
+        <div class="container">
+            <div class="home-sub-grid-container">
+                <div class="sub-col">
+                    <a href="services-style-one.html" class="sub-col__link">
+                        <img class="sub-col__icon-1" src="assets/img/home-style-one/key.png" alt="key icon">
+                        <h2 class="heading-two heading-two--green">GARDEN SERVICE</h2>
+                    </a>
+                </div>
+                <div class="sub-col">
+                    <a href="shop.html" class="sub-col__link">
+                        <img class="sub-col__icon-2" src="assets/img/home-style-one/cart.png" alt="cart icon">
+                        <h2 class="heading-two heading-two--green">GARDEN SHOP</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SUB SECTION END-->
+    <!--POPULAR PRODUCTS SECTION START-->
+    <section class="popular-product-section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-header__title">MOST POPULAR PRODUCTS</h3>
+            </div>
+            <div class="glider-contain">
+                <div class="glider">
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_1.png" alt="product_1">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">Black alder</span>
+                                        <span class="product-card__title--sub">Alnus glutinosa Ilex </span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_2.png" alt="product_2">
+                                <img class="product-card__discount" src="assets/img/products/discount.png" alt="discount_icon">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">Common alder</span>
+                                        <span class="product-card__title--sub">Alnus glutinosa</span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_3.png" alt="product_3">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">Bird's nest plant</span>
+                                        <span class="product-card__title--sub">Daucus carota</span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_4.png" alt="product_4">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">European weeping birch</span>
+                                        <span class="product-card__title--sub">Betula pendula</span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_1.png" alt="product_1">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">Black alder</span>
+                                        <span class="product-card__title--sub">Alnus glutinosa Ilex </span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_2.png" alt="product_2">
+                                <img class="product-card__discount" src="assets/img/products/discount.png" alt="discount_icon">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">Common alder</span>
+                                        <span class="product-card__title--sub">Alnus glutinosa</span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_3.png" alt="product_3">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">Bird's nest plant</span>
+                                        <span class="product-card__title--sub">Daucus carota</span>
+                                    </h4>
+                                    <h5 class="product-card__price">32.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="slide">
+                        <figure class="product-card">
+                            <a href="product.html" class="product-card__link">
+                                <img class="product-card__img" src="assets/img/products/product_4.png" alt="product_4">
+                                <figcaption>
+                                    <h4 class="product-card__title">
+                                        <span class="product-card__title--main">European weeping birch</span>
+                                        <span class="product-card__title--sub">Betula pendula</span>
+                                    </h4>
+                                    <h5 class="product-card__price">44.990,00 din</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <button class="glider-prev slider__btn slider__btn--left">
+                    <img src="assets/img/products/btn-left.png" alt="btn_left">
+                </button>
+                <button class="glider-next slider__btn slider__btn--right">
+                    <img src="assets/img/products/btn-right.png" alt="btn_right">
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--POPULAR PRODUCTS SECTION END-->
+    <!--HOME MAIN SECTION START-->
+    <section class="home-main-section">
+        <div class="container">
+            <div class="home-main-grid-two">
+                <div class="home-main-grid-two__col home-main-grid-two__col--1">
+                    <a href="services-style-one.html" class="home-main__col-link">
+                        <h2 class="heading-two u-margin-bottom-medium">GARDEN SERVICE</h2>
+                        <p class="home-main__col-text">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical making it over 2000 years old.
+                        </p>
+                    </a>
+                </div>
+                <div class="home-main-grid-two__col home-main-grid-two__col--2">
+                    <a href="gallery.html" class="home-main__col-link">
+                        <h2 class="heading-two u-margin-bottom-medium">
+                            <span class="heading-two--main">Gallery</span>
+                            <span class="heading-two--sub">Masonry</span>
+                        </h2>
+                        <p class="home-main__col-text">
+                            Nullam ultrices, augue non venenatis bibendum, lacus augue pellentesque quam, nec tempus sem
+                            ligula eu mi.
+                        </p>
+                    </a>
+                </div>
+                <div class="home-main-grid-two__col home-main-grid-two__col--3">
+                    <a href="gallery.html" class="home-main__col-link">
+                        <h2 class="heading-two u-margin-bottom-medium">
+                            <span class="heading-two--main">Gallery</span>
+                            <span class="heading-two--sub">FullWidth</span>
+                        </h2>
+                        <p class="home-main__col-text">
+                            Nullam ultrices, augue non venenatis bibendum, lacus augue pellentesque quam, nec tempus sem
+                            ligula eu mi.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--HOME MAIN SECTION END-->
+    <!--OUR-PRODUCTS SECTION START-->
+    <section class="our-products-section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-header__title">OUR PRODUCTS</h3>
+            </div>
+            <div class="our-products-grid">
+                <div class="our-products-col">
+                    <figure class="our-products-card">
+                        <a href="shop.html" class="our-products-card__link">
+                            <img class="our-products-card__img" src="assets/img/our-prodcts/our-product-4.png" alt="product-1">
+                            <figcaption>
+                                <h5 class="our-products-card__title">Motorne testere</h5>
+                                <p class="our-products-card__description">
+                                    Husqvarna motorne testere
+                                    Oleo-Mac motorne testere
+                                    McCULLOCH motorne testere
+                                    Partner motorne testere
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="our-products-col">
+                    <figure class="our-products-card">
+                        <a href="shop.html" class="our-products-card__link">
+                            <img class="our-products-card__img" src="assets/img/our-prodcts/our-product-3.png" alt="product-2">
+                            <figcaption>
+                                <h5 class="our-products-card__title">ELEKTRIČNE testere</h5>
+                                <p class="our-products-card__description">
+                                    Husqvarna električne testere
+                                    Bosch električne testere
+                                    Skil električne testere
+                                    Villager električne testere
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="our-products-col">
+                    <figure class="our-products-card">
+                        <a href="shop.html" class="our-products-card__link">
+                            <img class="our-products-card__img" src="assets/img/our-prodcts/our-product-2.png" alt="product-3">
+                            <figcaption>
+                                <h5 class="our-products-card__title">Motorne KOSAČICE</h5>
+                                <p class="our-products-card__description">
+                                    Sword motorne kosačice
+                                    Husqvarna motorne kosačice
+                                    Partner
+                                    Flymo motorne kosačice
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="our-products-col">
+                    <figure class="our-products-card">
+                        <a href="shop.html" class="our-products-card__link">
+                            <img class="our-products-card__img" src="assets/img/our-prodcts/our-product-1.png" alt="product-4">
+                            <figcaption>
+                                <h5 class="our-products-card__title">ELEKTRIČNE KOSAČICE</h5>
+                                <p class="our-products-card__description">
+                                    Bosch električne kosačice
+                                    Oleo-Mac električne kosačice
+                                    Gardena električne kosačice
+                                    Villager električne kosačice
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--OUR-PRODUCTS SECTION END-->
+    <div class="container">
+        <div class="back-to-top-wrapper" style="text-align: right">
+            <a href="#header" class="btn-primary">BACK TO TOP</a>
+        </div>
+    </div>
+</main>
+<!--FOOTER START-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <a href="index.html" class="footer__link">
+                <img src="assets/img/header-navigation/footer-logo.png" alt="logo" class="footer__logo">
+            </a>
+            <div class="footer__info">
+                <div class="footer__info-phone">
+                    <img src="assets/img/header-navigation/phone.png" alt="phone-icon">
+                    <p>(+01) 123 456 7896</p>
+                </div>
+                <div class="footer__info-mail">
+                    <img src="assets/img/header-navigation/e-mail.png" alt="email-icon">
+                    <p>gardenshop@gmail.com</p>
+                </div>
+                <div class="footer__info-hours">
+                    <img src="assets/img/header-navigation/clock.png" alt="clock-icon">
+                    <p>Monday-Friday : 9:00 AM to 7:00 PM  Sunday : Closed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+
+<div class="search-popup">
+    <span class="search-popup__close">Close</span>
+    <form action="#" class="search-popup__form">
+        <input type="text" class="search-popup__input" placeholder="Search">
+        <button class="search-popup__btn" type="button">
+            <img class="search-popup__icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+        </button>
+    </form>
+</div>
 </body>
 </html>

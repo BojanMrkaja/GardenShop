@@ -50,7 +50,7 @@
 
     @include respond(x-large){
       padding-right: 7.4rem;
-      padding-bottom: 2.2rem;
+      padding-bottom: 4.2rem;
       padding-top: 17rem;
     }
   }
@@ -68,6 +68,115 @@
 
     @include respond(x-large){
       font-size: 1.8rem;
+    }
+  }
+}
+
+.home-main-grid-two{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2.5rem;
+
+  @include respond(medium){
+    grid-template-rows: repeat(2, max-content);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2.2rem;
+  }
+
+  &__col{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__col--1{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-main/gallery-home-1.png");
+    grid-column: 1 / -1;
+
+    .home-main__col-text{
+      width: 60%;
+    }
+
+    .home-main__col-link{
+      @include respond(large){
+        padding-top: 25rem;
+      }
+    }
+  }
+
+  &__col--2{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-style-one/lead-service.png");
+
+    @include respond(medium){
+      grid-row: 2 /3;
+    }
+  }
+
+  &__col--3{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-main/gallery-home-2.png");
+
+    @include respond(medium){
+      grid-row: 2 /3;
+    }
+  }
+}
+
+.home-main-grid-three{
+
+  @include respond(small){
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @include respond(medium){
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+  }
+
+
+  [class^="home-main-grid-three__col-"]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+  }
+
+  &__col-1{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-main/home-main-three-1.png");
+  }
+
+  &__col-2{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-main/home-main-three-2.png");
+  }
+
+  &__col-3{
+    background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+    url("../assets/img/home-main/home-main-three-3.png");
+    margin-bottom: 0;
+  }
+
+  &__link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 25rem 2.6rem 3rem 1.8rem;
+  }
+
+  &__text{
+    color: var(--color-white);
+    font-family: var(--font-primary-regular);
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    margin-top: 1.6rem;
+
+    @include respond(x-large){
+      font-size: 1.6rem;
     }
   }
 }

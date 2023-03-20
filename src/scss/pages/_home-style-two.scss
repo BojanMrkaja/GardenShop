@@ -1,0 +1,15 @@
+@use "../abstract/mixins" as *;
+
+.section-lead-two{
+  background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+  url("../assets/img/home-style-one/lead-hero.png");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin-bottom: 1.8rem;
+
+  @include respond(x-large){
+    padding-top: 10rem;
+    background-position: top right;
+  }
+}
