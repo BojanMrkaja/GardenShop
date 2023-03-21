@@ -1,0 +1,23 @@
+@use "../abstract/mixins" as *;
+
+.service-lead{
+  padding-top: 15.7rem;
+  padding-bottom: 16.7rem;
+  background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #067233 100%),
+  url("../assets/img/service_one/service-lead.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include CenterFlex();
+  margin-top: 2.5rem;
+  margin-bottom: 4.4rem;
+
+  @include respond(x-large){
+    padding-top: 17rem;
+    padding-bottom: 18rem;
+  }
+}
+
+.our-service{
+  padding-bottom: 6rem;
+}

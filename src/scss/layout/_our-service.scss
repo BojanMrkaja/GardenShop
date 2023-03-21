@@ -1,0 +1,52 @@
+@use "../abstract/mixins" as *;
+
+.our-service-grid{
+  display: grid;
+  grid-template-columns: 0.8fr;
+  grid-row-gap: 3.2rem;
+  justify-content: center;
+
+  @include respond(small){
+    grid-template-columns: 0.5fr;
+  }
+
+  @include respond(x-small){
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-column-gap: 2rem;
+  }
+
+  @include respond(medium){
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 9.2rem;
+  }
+
+  @include respond(x-large){
+    grid-column-gap: 15rem;
+    grid-row-gap: 5rem;
+  }
+
+  &__item{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.7rem;
+    grid-column-gap: 1.4rem;
+    align-items: center;
+  }
+
+  h3{
+    margin-bottom: 0!important;
+  }
+
+
+  p{
+    color: var(--color-gray-light-2);
+    font-size: 1.4rem;
+    letter-spacing: -0.25px;
+    line-height: 2.2rem;
+    grid-column: 1 / span 2;
+
+    @include respond(x-large){
+      font-size: 1.8rem;
+    }
+  }
+}

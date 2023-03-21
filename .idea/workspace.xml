@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf3bc22-1ba7-4dbf-aa0b-e4a649914fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-us/about-us-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-us/about-us-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_our-history.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/_about-us.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/service_one/our-service-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/service_one/service-lead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_our-service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pages/_service.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services-style-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/services-style-one.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\home-style-one" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\service_one" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\about-us" />
       <recent name="C:\Users\mrkaj\Desktop\Git WorkPlace\GardenShop\src\assets\img\home-main" />
     </key>
@@ -134,7 +135,8 @@
       <workItem from="1677390889144" duration="21816000" />
       <workItem from="1677478824012" duration="804000" />
       <workItem from="1679207262545" duration="2117000" />
-      <workItem from="1679213460280" duration="11590000" />
+      <workItem from="1679213460280" duration="15814000" />
+      <workItem from="1679382992959" duration="6628000" />
     </task>
     <servers />
   </component>

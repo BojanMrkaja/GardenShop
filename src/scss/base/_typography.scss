@@ -38,7 +38,11 @@
   color: var(--color-gray-dark);
   font-size: 2.4rem;
   letter-spacing: -0.29px;
-  margin-bottom: 2.9rem;
+  margin-bottom: 2.6rem;
+
+  @include respond(x-large){
+    font-size: 3rem;
+  }
 }
 
 .section-header{

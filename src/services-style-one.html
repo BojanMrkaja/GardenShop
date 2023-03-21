@@ -1,10 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Garden Shop</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/Page%201.png">
+    <link rel="stylesheet" href="scss/main.scss" />
+    <script defer type="module" src="js/main.js"></script>
 </head>
 <body>
+<!-- HEADER START-->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__grid-container">
+            <div class="header__logo-box">
+                <a href="index.html">
+                    <img class="header__logo" src="assets/img/header-navigation/header-logo.png" alt="garden-shop logo">
+                </a>
+            </div>
 
+            <div class="header__info">
+                <div class="header__info-phone">
+                    <img src="assets/img/header-navigation/phone.png" alt="phone-icon">
+                    <p>(+01) 123 456 7896</p>
+                </div>
+                <div class="header__info-mail">
+                    <img src="assets/img/header-navigation/e-mail.png" alt="email-icon">
+                    <p>gardenshop@gmail.com</p>
+                </div>
+                <div class="header__info-hours">
+                    <img src="assets/img/header-navigation/clock.png" alt="clock-icon">
+                    <p>Monday-Friday : 9:00 AM to 7:00 PM  Sunday : Closed</p>
+                </div>
+            </div>
+
+            <img class="header__search-mobile" src="assets/img/header-navigation/search-icon.png" alt="search icon">
+
+            <button class="navigation-toggler" type="button">
+                <span class="navigation-toggler__icon navigation-toggler__icon--1"></span>
+                <span class="navigation-toggler__icon navigation-toggler__icon--2"></span>
+                <span class="navigation-toggler__icon navigation-toggler__icon--3"></span>
+            </button>
+
+            <form action="#" class="header__search">
+                <input type="text" class="header__search-input" placeholder="Search">
+                <button class="header__search-btn" type="submit">
+                    <img class="header__search-icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+<!-- HEADER ENDS-->
+
+<!--NAVIGATION START-->
+<nav class="navigation">
+    <div class="container">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a data-dropdown="dropdown" href="#" class="navigation__link">Home <span>+</span></a>
+                <div class="navigation__dropdown">
+                    <div class="container">
+                        <a  href="index.html" class="navigation__dropdown-link">HOMEPAGE STYLE ONE</a>
+                        <a href="home-style-two.html" class="navigation__dropdown-link">HOMEPAGE STYLE TWO</a>
+                        <a href="home-style-three.html" class="navigation__dropdown-link">HOMEPAGE STYLE THREE</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navigation__item"><a href="about-us.html" class="navigation__link active">About us</a></li>
+            <li class="navigation__item">
+                <a data-dropdown="dropdown" href="#" class="navigation__link">Services <span>+</span></a>
+                <div class="navigation__dropdown">
+                    <div class="container">
+                        <a href="services-style-one.html" class="navigation__dropdown-link">SERVICES STYLE ONE</a>
+                        <a href="home-style-two.html" class="navigation__dropdown-link">SERVICES STYLE TWO</a>
+                        <a href="home-style-three.html" class="navigation__dropdown-link">SERVICES STYLE THREE</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navigation__item"><a href="shop.html" class="navigation__link">Shop</a></li>
+            <li class="navigation__item">
+                <a data-dropdown="dropdown" href="#" class="navigation__link">
+                    Menu<span>+</span>
+                    <img class="navigation__menu" src="assets/img/header-navigation/hamburger-menu.png" alt="hamburger-menu">
+                </a>
+                <div class="navigation__dropdown">
+                    <div class="container">
+                        <a href="contact-us.html" class="navigation__dropdown-link">Contact us</a>
+                        <a href="locations.html" class="navigation__dropdown-link">locations</a>
+                        <a href="gallery.html" class="navigation__dropdown-link">gallery</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--NAVIGATION END-->
+<main>
+    <!--SERVICE LEAD START-->
+    <div class="container">
+        <section class="service-lead">
+            <h2 class="heading-two">SERVICES</h2>
+        </section>
+    </div>
+    <!--SERVICE LEAD END-->
+    <!--OUR SERVICE START-->
+    <section class="our-service">
+        <div class="container">
+            <div class="our-service-grid">
+                <div class="our-service-grid__item">
+                    <img class="our-service-grid__icon" src="assets/img/service_one/our-service-icon.png" alt="service icon">
+                    <h3 class="heading-three">OUR SERVICES</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="our-service-grid__item">
+                    <img src="assets/img/service_one/our-service-icon.png" alt="service icon">
+                    <h3 class="heading-three">OUR SERVICES</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="our-service-grid__item">
+                    <img src="assets/img/service_one/our-service-icon.png" alt="service icon">
+                    <h3 class="heading-three">OUR SERVICES</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="our-service-grid__item">
+                    <img src="assets/img/service_one/our-service-icon.png" alt="service icon">
+                    <h3 class="heading-three">OUR SERVICES</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="our-service-grid__item">
+                    <img src="assets/img/service_one/our-service-icon.png" alt="service icon">
+                    <h3 class="heading-three">OUR SERVICES</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="our-service-grid__item">
+                    <img src="assets/img/service_one/our-service-icon.png" alt="service icon">
+                    <h3 class="heading-three">OUR SERVICES</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--OUR SERVICE END-->
+    <!--YOUR GARDEN START-->
+    <div class="container">
+        <section class="your-garden">
+            <h2 class="heading-two">
+                <span class="heading-two--main">Need to take care of</span>
+                <span class="heading-two--sub">your Garden & Lawn</span>
+            </h2>
+            <p>
+                Nullam ultrices, augue non venenatis bibendum, lacus augue pellentesque
+                quam, nec tempus sem ligula eu mi.
+            </p>
+            <a class="btn-primary" href="contact-us.html">CONTACT US</a>
+        </section>
+    </div>
+    <!--YOUR GARDEN END-->
+    <div class="container">
+        <div class="back-to-top-wrapper" style="text-align: right">
+            <a href="#header" class="btn-primary">BACK TO TOP</a>
+        </div>
+    </div>
+</main>
+<!--FOOTER START-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <a href="index.html" class="footer__link">
+                <img src="assets/img/header-navigation/footer-logo.png" alt="logo" class="footer__logo">
+            </a>
+            <div class="footer__info">
+                <div class="footer__info-phone">
+                    <img src="assets/img/header-navigation/phone.png" alt="phone-icon">
+                    <p>(+01) 123 456 7896</p>
+                </div>
+                <div class="footer__info-mail">
+                    <img src="assets/img/header-navigation/e-mail.png" alt="email-icon">
+                    <p>gardenshop@gmail.com</p>
+                </div>
+                <div class="footer__info-hours">
+                    <img src="assets/img/header-navigation/clock.png" alt="clock-icon">
+                    <p>Monday-Friday : 9:00 AM to 7:00 PM  Sunday : Closed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+
+<div class="search-popup">
+    <span class="search-popup__close">Close</span>
+    <form action="#" class="search-popup__form">
+        <input type="text" class="search-popup__input" placeholder="Search">
+        <button class="search-popup__btn" type="button">
+            <img class="search-popup__icon" src="assets/img/header-navigation/search-icon.png" alt="search-icon">
+        </button>
+    </form>
+</div>
 </body>
 </html>
